@@ -1,0 +1,109 @@
+#section_header{
+	height: 250px;
+	align-items: flex-start;
+}
+
+#section_header .section-inner-wrapper{
+	max-width: 1200px;
+}
+
+.section-testimonials .section-title{
+	color: #fff;
+}
+
+.speaker-box{
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	border-radius: 200px;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
+	margin-bottom: 40px;
+	background-color: #fff;
+}
+
+.speaker-box:last-child{
+	margin-bottom: 0px;
+}
+
+.speaker-box:hover{
+	box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+	transform: scale(0.99);
+}
+
+.speaker-box-image{
+	width: 200px;
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+	background-color: black;
+	border-radius: 50%;
+}
+
+.speaker-box-text{
+	flex: 1;
+	padding: 30px;
+	color: #1D1D1D;
+}
+
+.speaker-box .speaker-box-name{
+	font-size: 2.5rem;
+	margin: 0px;
+	margin-bottom: 10px;
+	color: #22272A;
+}
+
+.speaker-box-text .speaker-box-desc{
+	line-height: 23px;
+	color: #2B3236;
+}
+
+.back-blue{
+	background-color: #3F51B5;
+}
+
+.back-blue .speaker-box-name::selection, .back-blue .speaker-box-desc::selection {
+	background-color: #3F51B5;
+}
+
+.back-blue .speaker-box-name, .back-blue .speaker-box-desc{
+	color: #fff;
+}
+
+.blue-color h2{
+	color: #3F51B5;
+}
+
+.blue-color h2::selection{
+	background-color: #3F51B5;
+}
+
+.back-orange{
+	background-color: #FF5722;
+}
+
+.back-orange .speaker-box-name::selection, .back-orange .speaker-box-desc::selection {
+	background-color: #FF5722;
+}
+
+.back-orange .speaker-box-name, .back-orange .speaker-box-desc{
+	color: #fff;
+}
+
+.orange-color h2{
+	color: #FF5722;
+}
+
+.orange-color h2::selection{
+	background-color: #FF5722;
+}
+
+.twitter-speaker i{
+	color: rgba(255,255,255,0.40);
+	font-size: .6em;
+}
+
+.twitter-speaker:hover i{
+	color: rgba(255,255,255,0.60);
+	font-size: .6em;
+}
